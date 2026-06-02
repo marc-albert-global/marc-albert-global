@@ -4,6 +4,8 @@
 
 I care about three things: **honest analysis** (state the comparison base, flag the alternative reading), **systems that compound** (tools that get better with use), and **shipping** (a model nobody can run isn't a model).
 
+I'm especially drawn to **forward-deployed and AI-implementation** work: taking an ambiguous business problem, turning it into a grounded system, and proving it with numbers (cost, accuracy, reliability). The projects below lead with that, each one opens with real metrics, an honest limitations section, and a "from demo to deployment" mapping rather than just code.
+
 ---
 
 ### 🛠️ What I work with
@@ -24,10 +26,10 @@ Data analysis & forecasting · LLM agent design · retrieval (RAG) · time-serie
 
 | Project | What it is | Stack |
 |:--|:--|:--|
-| **[agent-ops-kit](https://github.com/marc-albert-global/agent-ops-kit)** | A framework for building domain-agnostic "operations analyst" AI agents, skill routing, on-demand context loading, an auto-learn→memory loop, and tiered permissions. Distilled from a real internal ops system. | Python · Claude API |
-| **[tourism-demand-forecast](https://github.com/marc-albert-global/tourism-demand-forecast)** | End-to-end analytics: ingest public air-travel data → clean → seasonal forecast (1.15% MAPE), with explicit handling of the COVID structural break. | Python · pandas · statsmodels |
-| **[context-compression-lab](https://github.com/marc-albert-global/context-compression-lab)** | A research lab benchmarking token-minimization methods, how much each compression technique cuts tokens vs. how much context it preserves. Includes a full field survey. | Python · tiktoken |
-| **[travel-route-recommender](https://github.com/marc-albert-global/travel-route-recommender)** | A routing & recommendation engine over the open global flight network, scores destinations against traveler constraints, grounded in real routes only. | Python · networkx · FastAPI |
+| **[agent-ops-kit](https://github.com/marc-albert-global/agent-ops-kit)** | Framework for domain-agnostic "operations analyst" AI agents: skill routing, on-demand context, auto-learn memory, tiered permissions. **~49% fewer prompt tokens per call** via on-demand routing. Distilled from a real internal ops system. | Python · Claude API |
+| **[context-compression-lab](https://github.com/marc-albert-global/context-compression-lab)** | Benchmarks token-minimization methods: how much each cuts tokens vs. how much context it preserves, with a **production cost model** ($/yr saved at your volume) and a full field survey. | Python · tiktoken |
+| **[tourism-demand-forecast](https://github.com/marc-albert-global/tourism-demand-forecast)** | End-to-end forecasting on public air-travel data, **scored against a seasonal-naive baseline** (the honest test of whether the model earns its complexity), with explicit COVID structural-break handling. | Python · pandas · statsmodels |
+| **[travel-route-recommender](https://github.com/marc-albert-global/travel-route-recommender)** | Routing & recommendation engine over the global flight network (**6,071 airports, ~8ms/query, 0 hallucinated routes**): grounded candidates, transparent scoring. | Python · networkx · FastAPI |
 
 ---
 
