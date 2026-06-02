@@ -24,9 +24,10 @@ Data analysis & forecasting · LLM agent design · retrieval (RAG) · time-serie
 
 | Project | What it is | Stack |
 |:--|:--|:--|
-| **[agent-ops-kit](https://github.com/MarcAlbert06800/agent-ops-kit)** | A framework for building domain-agnostic "operations analyst" AI agents — skill routing, on-demand context loading, an auto-learn→memory loop, and tiered permissions. Distilled from a real internal ops system. | Python · Claude API |
-| **[tourism-demand-forecast](https://github.com/MarcAlbert06800/tourism-demand-forecast)** | End-to-end analytics: ingest public tourism data → clean → explore → seasonal forecast, with a written analytical narrative. | Python · pandas · statsmodels |
-| **[travel-route-recommender](https://github.com/MarcAlbert06800/travel-route-recommender)** | A routing & recommendation engine over the open global flight network — scores destinations against traveler constraints. | Python · networkx · FastAPI |
+| **[agent-ops-kit](https://github.com/marc-albert-global/agent-ops-kit)** | A framework for building domain-agnostic "operations analyst" AI agents — skill routing, on-demand context loading, an auto-learn→memory loop, and tiered permissions. Distilled from a real internal ops system. | Python · Claude API |
+| **[tourism-demand-forecast](https://github.com/marc-albert-global/tourism-demand-forecast)** | End-to-end analytics: ingest public air-travel data → clean → seasonal forecast (1.15% MAPE), with explicit handling of the COVID structural break. | Python · pandas · statsmodels |
+| **[context-compression-lab](https://github.com/marc-albert-global/context-compression-lab)** | A research lab benchmarking token-minimization methods — how much each compression technique cuts tokens vs. how much context it preserves. Includes a full field survey. | Python · tiktoken |
+| **[travel-route-recommender](https://github.com/marc-albert-global/travel-route-recommender)** | A routing & recommendation engine over the open global flight network — scores destinations against traveler constraints, grounded in real routes only. | Python · networkx · FastAPI |
 
 ---
 
@@ -34,8 +35,8 @@ Data analysis & forecasting · LLM agent design · retrieval (RAG) · time-serie
 
 Some of my strongest work can't be open-sourced. I've written up the problem, approach, and outcomes here — happy to go deeper in conversation.
 
-- **LLM-based travel routing engine** — under NDA, in development as a product. → [case study](https://github.com/MarcAlbert06800/case-studies/blob/main/llm-travel-router.md)
-- **Secure, local-first contract RAG system** — PII masking before embedding, role-based retrieval, air-gapped by default. → [case study](https://github.com/MarcAlbert06800/case-studies/blob/main/secure-contract-rag.md)
+- **LLM-based travel routing engine** — under NDA, in development as a product. → [case study](https://github.com/marc-albert-global/case-studies/blob/main/llm-travel-router.md)
+- **Secure, local-first contract RAG system** — PII masking before embedding, role-based retrieval, air-gapped by default. → [case study](https://github.com/marc-albert-global/case-studies/blob/main/secure-contract-rag.md)
 
 ---
 
